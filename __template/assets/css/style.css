@@ -1,0 +1,112 @@
+html,
+body {
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+  background: #870000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #190a05,
+    #870000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #190a05,
+    #870000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a,
+.accordion-button:not(.collapsed) {
+  color: #e95c5c;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #ffb4b4;
+  text-decoration: none;
+}
+
+.gradient {
+  background: #870000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #190a05,
+    #870000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #190a05,
+    #870000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-darken {
+  background-color: #700000;
+  box-shadow: 0px 0px 20px 0px #000000;
+}
+
+.page-header,
+.feature {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.partners {
+  background-color: #700000;
+}
+
+.feature ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.feature ul li {
+  padding-left: 2rem;
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.img-header {
+  height: 500px;
+  margin-top: 2rem;
+  -webkit-filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.9));
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.9));
+}
+
+.img-content {
+    height: 300px;
+    margin-top: 2rem;
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.9));
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.9));
+  }
+
+.content {
+  margin-top: 5rem;
+}
+
+.content h3 {
+  text-shadow: 0px 0px 20px #000000;
+}
+
+.accordion-header {
+  background: #dedede;
+}
+
+.card {
+  border: none;
+}
+
+.content-card {
+  background: rgb(112, 0, 0);
+  box-shadow: 0px 0px 20px 0px #000000;
+  padding: 3rem;
+  color: #fff;
+}
+
+footer {
+  background-color: #700000;
+  color: #fff;
+  height: 120px;
+}
