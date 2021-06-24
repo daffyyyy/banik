@@ -4,6 +4,7 @@
 Prosta strona pozwala na utworzenie i wygenerowanie potrzebnych plików do działania amxbansa lub sourcebansa
 
 (W repozytorium brak bazy danych)
+Stary projekt robiony na szybko w celu zastąpienia upadłego już mybans.eu
 
 - Proste
 - Szybkie
